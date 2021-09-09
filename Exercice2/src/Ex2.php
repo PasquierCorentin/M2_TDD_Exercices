@@ -2,15 +2,15 @@
 
 class PrimeFactors
 {
-    public static function isPrime (int $n) :bool
-    {
-       for ($i = 2; $i < $n; $i++){
-           if ($n % $i === 0){
-               return false;
-           }
-       }
-       return true;
-    }
+    // public static function isPrime (int $n) :bool
+    // {
+    //    for ($i = 2; $i < $n; $i++){
+    //        if ($n % $i === 0){
+    //            return false;
+    //        }
+    //    }
+    //    return true;
+    // }
 
     public static function generatePrimeFactors(int $n) : array
     {
